@@ -25,7 +25,7 @@ python train.py --train_dir=${model_dir}  \
                 --pretrain_D_steps 0 \
                 --mixer_period 2500 \
                 --mixer_step 2 \
-                --train_corpus_en data/giga-fren.release2.fixed.en.ids40000 \
-                --train_corpus_fr data/giga-fren.release2.fixed.fr.ids40000 \
+                --train_corpus_en data/short.en \
+                --train_corpus_fr data/short.fr \
                 #--reload_model_all ${RELOAD_MODEL_ALL} 
 
